@@ -5,18 +5,6 @@ canvas.height = window.innerHeight
 
 const c = canvas.getContext('2d')
 
-/* let radius = 45
-let x = Math.random() * (innerWidth - radius)
-let y = Math.random() * (innerHeight - radius)
-let dx = (Math.random() - 0.5) * 10
-let dy = (Math.random() - 0.5) * 10 */
-
-/* --color-one: #608741;
-    --color-two: #874833;
-    --color-three: #4E5887;
-    --color-four: #3B2219;
-    --color-five: #273B16; */
-
 const colorArray = [
   "#608741",
   "#874833",
@@ -126,5 +114,6 @@ function init(){
     circleArray.push(new Circle(x,y,dx,dy,radius))
   }
 }
+
 init()
 animate()
